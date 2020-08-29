@@ -1,0 +1,25 @@
+{
+  "name": "JavaScriptES6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "source-map-loader": "^1.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --mode-development ",
+    "build": "webpack --mode-production"
+  },
+  "author": "Artur-17 <arturandrade40@hotmail.com>",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
